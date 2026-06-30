@@ -20,3 +20,8 @@ export const getAllPlaygroundForUser = async () => {
     return null;
   }
 };
+
+export const deleteProjectById = async()=>{}
+export const duplicateProjectById = async () => {};
+export const editProjectById = async () => {};
+
