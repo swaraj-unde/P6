@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function HomeLayout({
+export default async function HomeLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -29,7 +29,7 @@ export default function HomeLayout({
         )}
       />
 
-      
+
       <div
         className="
           pointer-events-none absolute inset-0

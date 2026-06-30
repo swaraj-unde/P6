@@ -8,7 +8,6 @@ export function Header() {
     <>
       <div className="sticky top-0 left-0 right-0 z-50">
         <div className="bg-white dark:bg-black/5 w-full">
-
           <div className="flex items-center justify-center w-full flex-col">
             <div
               className={`
@@ -35,18 +34,19 @@ export function Header() {
                     <Image
                       src={"/logo2.png"}
                       alt="Logo"
-                      height={60}
-                      width={60}
+                      height={40}
+                      width={40}
                     />
 
-                    <span className="hidden sm:block font-extrabold text-lg">
-                      Crown Code
+                    <span className="mt-2 hidden sm:block font-extrabold text-2xl">
+                      Crown{" "}
+                      <span className="text-amber-400">
+                        Code
+                      </span>
                     </span>
                   </Link>
                   <span className="text-zinc-300 dark:text-zinc-700">|</span>
-
                 </div>
-
 
                 <div className="hidden sm:flex items-center gap-3">
                   <span className="text-zinc-300 dark:text-zinc-700">|</span>
@@ -54,7 +54,6 @@ export function Header() {
                   <ThemeToggle />
                   <UserButton />
                 </div>
-
 
                 <div className="flex sm:hidden items-center gap-4">
                   <ThemeToggle />
